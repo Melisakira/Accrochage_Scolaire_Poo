@@ -13,7 +13,7 @@ Chaque enregistrement déclenche une mise à jour du score de risque.
 
 ## F3 - Calculer le score de risque
 
-Mise à jour automatique du score d'un élève selon le nombre d'absences injsutifiées et les signalements actifs. Le score détermine le profil de risque (faible/ moyen/ élevé).
+Mise à jour automatique du score d'un élève selon le nombre d'absences injustifiées et les signalements actifs. Le score détermine le profil de risque (faible/ moyen/ élevé).
 
 ## F4 - Déclencher une alerte
 
