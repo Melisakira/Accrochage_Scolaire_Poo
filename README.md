@@ -19,6 +19,6 @@ Appuyer sur F5 ou cliquer sur Démarrer
 
 ## Structure du repo
 
-- Src/ → code source C#
-- Uml/ → diagrammes de classes
-- Docs/ → conception et justifications
+- src/ → code source C#
+- uml/ → diagrammes de classes
+- docs/ → conception et justifications
