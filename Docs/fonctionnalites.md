@@ -3,7 +3,7 @@
 ## F1 - Gérer un élève
 
 Créer, consulter et modifier le profil d'un élève.
-Un élève possède un nom, un âgen un niveau scolaire et un score de risque calculé automatiquement.
+Un élève possède un nom, un âge, un niveau scolaire et un score de risque calculé automatiquement.
 
 ## F2 - Enregistrer une absence
 
