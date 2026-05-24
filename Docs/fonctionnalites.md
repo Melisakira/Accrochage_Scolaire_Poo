@@ -63,4 +63,4 @@ Vue synthétique affichant :
 - les alertes actives non traitées
 - les intervenants assignés par élève
 - les dernières actions réalisées par élève
-- le statut du suivi avtif et clôturé
+- le statut du suivi actif et clôturé
