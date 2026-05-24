@@ -38,8 +38,10 @@ Le score détermine le profil de risque (faible / moyen / élevé).
 
 ## F4 - Assigner un intervenant à un élève
 
-Céer un intevervenant (direction de l'établissement, enseignant titularisé, PMS ou externe) et l'assigner à un élève.
-L'assignation constitue un abonnement : l'intervenant sera automatiquement notifié lors de chaque alerte concernant cet élève. Il est également possible de désassigner un intervenant.
+Créer un intervenant (direction de l'établissement, enseignant titulaire, PMS ou externe) et l'assigner à un élève.
+L'assignation constitue un abonnement : l'intervenant sera automatiquement notifié lors de chaque alerte concernant cet élève.
+Un intervenant responsable est désigné par la direction de l'établissement. Il peut, de façon manuelle et proactive, assigner un intervenant à un élève sans attendre qu'une alerte soit déclenchée — notamment lorsqu'il observe depuis le tableau de bord qu'un élève approche d'un seuil sans l'avoir encore franchi.
+Il est également possible de désassigner un intervenant si son suivi de l'élève prend fin.
 
 ## F5 - Déclencher une alerte
 
@@ -60,6 +62,7 @@ Un suivi regroupe l'ensemble des actions réalisées pour un élève par un ou p
 
 Vue synthétique affichant :
 - les élèves classés par niveau de risque
+- les élèves dont le score approche un seuil sans l'avoir franchi — permet une action manuelle et proactive
 - les alertes actives non traitées
 - les intervenants assignés par élève
 - les dernières actions réalisées par élève
