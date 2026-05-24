@@ -4,7 +4,7 @@ Application console C# de suivi et de prévention du décrochage scolaire.
 
 ## Domaine
 
-Outil de gestion permettant à une équipe éducative de suivre les élèves à risque, d'enregistrer les évènements significatifs (absences, retards, résultats, signalements), de calculer un score de risque et de déclencher des alertes automatiques vers les  intervenants concernés.
+Outil de gestion permettant à une équipe éducative de suivre les élèves à risque, d'enregistrer les évènements significatifs (absences, retards, résultats, signalements), de calculer un score de risque selon une logique tenant compte de la temporalité, de la progression et de la combinaison des événements, et de déclencher des alertes automatiques vers les intervenants concernés.
 
 ## Stack technique
 
