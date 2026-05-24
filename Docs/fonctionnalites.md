@@ -26,11 +26,11 @@ Le calcul intègre trois angles d'analyse :
 
 Chaque type d'événement a un poids de base différent :
 
-Absence injustifiée : poids élevé
-Absence justifiée répétée : poids moyen
-Retard multiple : poids moyen
-Résultat scolaire sous le seuil de réussite : poids moyen
-Signalement : poids variable selon la gravité
+- Absence injustifiée : poids élevé
+- Absence justifiée répétée : poids moyen
+- Retard multiple : poids moyen
+- Résultat scolaire : poids déterminé par la Strategy selon le contexte (faible si isolé, moyen si répété dans la même matière, élevé si plusieurs matières simultanément)
+- Signalement : poids variable selon la gravité
 
 Ces poids de base sont ensuite modulés par les trois angles d'analyse.
 Cette logique est encapsulée et déléguée via le pattern Strategy, ce qui permet de faire évoluer l'algorithme sans modifier la classe Eleve.
