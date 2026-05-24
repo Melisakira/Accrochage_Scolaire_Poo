@@ -8,7 +8,7 @@ Chaque élève a un profil unique : problèmes familiaux, difficultés scolaires
 
 Sans pattern, 'Eleve' devrait connaître chaque intervenant individuellement, savoir qui appeler et comment. Couplage fort, le code deviendrait fragile, difficile à faire évoluer, et ne refléterait pas la réalité du terrain où les équipes varient selon les élèves et les situations.
 
-## Solution — Pattern Observer
+## Solution - Pattern Observer
 
 ### Participants dans le projet
 
@@ -45,7 +45,7 @@ Sur le terrain, évaluer la situation d'un élève ne se fait jamais en addition
 
 C'est cette nuance que le calcul du score doit refléter. Une logique simple et figée dans 'Eleve' ne peut pas y répondre - elle deviendrait vite trop lourde, trop rigide, et surtout déconnectée de la réalité du terrain.
 
-## Solution — Pattern Strategy
+## Solution - Pattern Strategy
 
 ### Participants dans le projet
 
