@@ -1,8 +1,8 @@
-# Design Pattern — Observer
+# Design Pattern - Observer
 
 ## Problème identifié
 
-Quand le score de risque d'un élève franchit un seuil critique, plusieurs professionnels doivent être notifiés — mais pas toujours les mêmes, et chacun réagit de façon indépendante selon son rôle. 
+Quand le score de risque d'un élève franchit un seuil critique, plusieurs professionnels doivent être notifiés - mais pas toujours les mêmes, et chacun réagit de façon indépendante selon son rôle. 
 
 Chaque élève a un profil unique : problèmes familiaux, difficultés scolaires, comportement perturbateur - ou une combinaison de ces facteurs. L'équipe d'intervenants est donc constituée au cas par cas, qu'il s'agisse de professionnels internes à l'établissement ou d'intervenants extérieurs comme les équipes mobiles, le SAS, le CPAS ou l'AMO. 
 
