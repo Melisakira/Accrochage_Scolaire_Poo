@@ -18,14 +18,23 @@ Chaque événement a un poids dans le calcul du score de risque et déclenche un
 ## F3 - Calculer le score de risque
 
 Mise à jour automatique du score d'un élève selon l'ensemble des événements enregistrés.
+Le calcul intègre trois angles d'analyse :
 
-Chaque type d'événement a un poids différent :
-- Absence injustifiée : poids élevé
-- Absence justifiée répétée : poids moyen
-- Retard mutiple : poids moyen
-- Signalement : poids variable selon la gravité
+- Temporalité : un événement récent pèse plus lourd qu'un événement ancien
+- Progression : la répétition d'un même type d'événement sur une période renforce le signal
+- Combinaison : la coexistence de plusieurs types d'événements différents sur une courte période amplifie le score
 
-Le score détermine le profil de risque (faible/ moyen/ élevé).
+Chaque type d'événement a un poids de base différent :
+
+Absence injustifiée : poids élevé
+Absence justifiée répétée : poids moyen
+Retard multiple : poids moyen
+Résultat scolaire sous le seuil de réussite : poids moyen
+Signalement : poids variable selon la gravité
+
+Ces poids de base sont ensuite modulés par les trois angles d'analyse.
+Cette logique est encapsulée et déléguée via le pattern Strategy, ce qui permet de faire évoluer l'algorithme sans modifier la classe Eleve.
+Le score détermine le profil de risque (faible / moyen / élevé).
 
 ## F4 - Assigner un intervenant à un élève
 
@@ -47,7 +56,7 @@ Documenter chaque action mise en place pour un élève :
 
 Un suivi regroupe l'ensemble des actions réalisées pour un élève par un ou plusieurs intervenant.s.
 
-## F6 - Tableau de bord
+## F7 - Tableau de bord
 
 Vue synthétique affichant :
 - les élèves classés par niveau de risque
