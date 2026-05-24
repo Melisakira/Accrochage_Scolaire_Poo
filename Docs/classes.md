@@ -50,7 +50,7 @@ Représente un élève suivi par l'équipe éducative. C'est l'objet central de 
 - Attributs : nom, age, niveauScolaire, scoreRisque, evenements, profilRisque, intervenantsAbonnes, strategieCalcul
 - Méthodes : EnregistrerEvenement(), CalculerScore(), AjouterIntervenant(), RetirerIntervenant(), Notifier()
 - Implémente : IEvaluable
-- Pattern Observer : intervenantsAbonnes, AjouterIntervenant(), RetirerIntervenant(), Notifier() - notifie automatiquement tous les intervenants abonnés quand le score franchit un seuil critique
+- Pattern Observer : intervenantsAbonnes, AjouterIntervenant(), RetirerIntervenant(), Notifier() - notifie automatiquement tous les intervenants abonnés quand le score franchit le seuil de vigilance (31-60) ou le seuil critique (supérieur à 60)
 - Pattern Strategy : strategieCalcul contient la logique de calcul du score. Ce pattern encapsule les trois angles d'analyse : temporalité, progression, combinaison.
 
 La classe Eleve délègue le calcul sans connaître la logique interne.
@@ -68,6 +68,7 @@ Spécialise ProfilRisque.
 Élève stable, surveillance normale :
       - Score entre 0 et 30
       - Aucune alerte déclenchée
+      - Les scores proches du seuil sont visibles dans le tableau de bord pour une action manuelle et proactive de l'intervenant responsable 
 
 ### RisqueMoyen
 Spécialise ProfilRisque.
